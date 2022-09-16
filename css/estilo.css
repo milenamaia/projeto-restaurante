@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+body{
+    width: 100%;
+    max-width: 1900px;
+    font-size: 25px;
+	overflow-x: hidden;
+}
+
+.site{
+    width:100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+/* BANNNER */
+
+.Banner img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-bottom:1px;
+    height: 974px;
+}
+
+.Banner  h1{
+    width: 1950px;
+    position: absolute;
+    font-size: 80px;
+    color: #EE3B3B;
+    font-family: 'Merienda', cursive;
+    margin-left: 350px;
+    margin-top: 410px;
+}
+
+/* SOBRE */ 
+.bre{
+  background-image:url(../img/midasobre.jpg);
+  background-size:100% 100%;
+  width:100%;
+  height:890px;
+  margin-top:150px;
+  background-attachment: fixed;
+}
+
+.logosobre{
+    display: flex;
+    margin-top: -500px;
+    margin-left: 300px;  
+}
+
+.logosobre img{
+    border-radius:50px;
+    margin-top:-288px;
+    margin-left: -250px;
+    max-width: 700px;
+}
+
+.sobre1 h1 {
+    position: absolute;
+    left: 75%;
+    bottom: -650px;
+}
+
+.ver{
+    margin: 0;
+    border: 0px; 
+}
+
+.cinza{
+    margin: 0;
+    border: 0px;
+}
+
+.btn{
+	display: flex;
+	margin-right:15px;
+}
+
+.me{
+    padding: 1px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+	margin: 70px;
+    margin-top: 85px;
+    font-family: 'Merienda', cursive;
+    color: #FF6347;
+}
+
+.menu h1{
+    font-size: 75px;
+}
+    
+.menu1{
+    display: flex;
+    justify-content:space-around;
+    font-size: 40px;
+	margin: 45px;
+    margin-top: 100px;
+}
+
+.menu1 article a{
+	display: flex;
+	justify-content:space-around;
+	font-size: 25px;
+    color: black;
+    text-decoration: none; 
+    font-family: 'Fjalla One', sans-serif; 
+}
+
+.menu2{
+    display: flex;
+    justify-content:space-around;
+    font-size: 50px;
+	margin: 40px;
+    margin-top: 100px;
+}
+
+.menu2 img{
+    margin-left: 70px;
+}
+
+.menu2 article a{
+    display: flex;
+	justify-content:space-around;
+	font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.cdp:hover {
+   transform: scale(1.1);
+}
+
+
+.cto{
+  background-image:url(../img/Porto-e-Norte-de-Portugal.jpg);
+  background-size:100% 100%;
+  width: 100%;
+  height: 910px;
+  background-attachment: fixed;
+  margin-top: 80px;
+}
+
+
+
+.icones article{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+/* VEGETARIANOS */
+.vege img{
+	width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+ 
+.vege p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 755px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.vegetariano1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.vegetariano1 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.vegetariano1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+     font-family: 'Rasa', serif;
+}
+
+.vegetariano1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vegetariano2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 150px;
+}
+
+.vegetariano2 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.vegetariano2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.vegetariano2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vta:hover {
+   transform: scale(1.1);
+}
+
+/* VEGANOS */
+.gano img{
+	width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+ 
+.gano p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 755px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.vegano1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.vegano1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.vegano1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.vegano1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vegano2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 150px;
+}
+
+.vegano2 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.vegano2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.vegano2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vga:hover {
+   transform: scale(1.1);
+}
+
+/* LANCHES */
+.lan img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+.lan p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 785px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.lanches1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.lanches1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+    margin-top: 50px;
+}
+
+.lanches1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.lanches1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.lanches2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.lanches2 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.lanches2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.lanches2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.lacs:hover {
+   transform: scale(1.1);
+}
+
+/* SOBREMESAS */
+.mesa img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    height: 755px;
+    margin-bottom:1px;
+}
+
+.mesa p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 655px;
+    margin-top: 270px;
+    font-family: 'Lobster', cursive;
+}
+
+.sobremesa1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 70px;
+}
+
+.sobremesa1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.sobremesa1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.sobremesa1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.sobremesa2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 80px;
+}
+
+.sobremesa2 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.sobremesa2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.sobremesa2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.sbs:hover {
+   transform: scale(1.1);
+}
+
+/* BEBIDAS */
+.be img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+
+.bebidas1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 55px;
+}
+
+.bebidas1 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.bebidas1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.bebidas1 h4{
+    font-size: 35px;
+    margin-top: -5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.bebidas2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.bebidas2 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.bebidas2 h2{
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Rasa', serif;
+}
+
+.bebidas2 h4{
+    font-size: 35px;
+    margin-top: -5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.bbd:hover {
+   transform: scale(1.1);
+}
+
+/* FITNESS */
+.fit img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+.fit p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 755px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.fitness1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.fitness1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.fitness1 h2{
+   font-size: 25px;
+   margin-top: 10px; 
+   font-family: 'Rasa', serif;
+}
+
+.fitness1 h4{
+    font-size: 35px;
+    margin-top: -5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.fitness2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 150px;
+}
+
+.fitness2 img{
+    height: 300px;
+    width: 500px;    
+    border-radius:20px;
+}
+
+.fitness2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.fitness2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.fits:hover {
+   transform: scale(1.1);
+}
+
+.Senha{
+   display: flex;
+   justify-content:flex-start;
+   font-size: 25px; 
+}
+
+.paraasenha{
+   width: 650px;
+   height: 50px;
+   font-size: 50px;
+   margin: 35px;
+}
+
+.Email{
+   display: flex;
+   justify-content:flex-start;
+   font-size: 25px; 
+}
+
+.paraoemail{
+   width: 650px;
+   height: 50px;
+   font-size: 50px;
+   margin: 35px;
+}
+
+.Telefone{
+   display: flex;
+   justify-content:flex-start;
+   font-size: 25px; 
+}
+
+.paraotelefone{
+   width: 650px;
+   height: 50px;
+   font-size: 50px;
+   margin: 35px;
+}
+
+.Cep{
+   display: flex;
+   justify-content:flex-start;
+   font-size: 25px;
+}
+
+.paraocep{
+   width: 650px;
+   height: 50px;
+   font-size: 50px;
+   margin: 35px;
+}
+
+.Menuscardapio{
+	display: flex;
+	justify-content: center;
+	font-size: 150px;
+	margin: -15px;
+}
+
+.msp img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+.msp p{
+    width: 1950px;
+    position: absolute;
+    font-size: 70px;
+    color:#1874CD;
+    margin-left: 655px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.Massas{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Massas h3 {
+    font-size: 70px;
+}
+
+.cardapio1{
+	display:flex;
+	justify-content:space-around;
+	font-size: 25px; 
+    margin-top: 50px;
+}
+
+.cardapio1 img{
+    height: 150px;
+    border-radius:20px;
+}
+
+.cardapio1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.cardapio1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.Carnes{
+    display: flex;
+    justify-content: center;
+}
+
+.Carnes h1{
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.Carnedeboi{
+    margin-left: 10px;
+    margin-top: 34px;
+}
+
+.Carnedeboi h1{
+    font-size: 30px;
+}
+
+.carnedeboi1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 25px;
+}
+
+.carnedeboi1 img{
+    height: 150px;
+    border-radius:20px;
+}
+
+.carnedeboi1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.carnedeboi1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.Carnedecabrito{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.Carnedecabrito h1{
+    font-size: 30px;
+}
+
+.carnedecabrito1{
+    display:flex;
+	justify-content:space-around;
+	margin-top: 15px;
+}
+
+.carnedecabrito1 img{
+    height: 150px;
+    border-radius:20px;
+}
+
+.carnedecabrito1 h2{
+    font-size: 20px;
+    margin-top: -2px;
+    margin-left: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.carnedecabrito1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.Carnedeporco{
+	margin-left: 10px;
+    margin-top: 50px;
+}
+
+.Carnedeporco h1{
+    font-size: 30px;
+}
+
+.carnedeporco1{
+    display:flex;
+	justify-content:space-around;
+	font-size: 25px;
+    margin-top: 20px;
+}
+
+.carnedeporco1 img{
+     height: 140px;
+     border-radius:20px;
+}
+
+.carnedeporco1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.carnedeporco1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.Carnedefrango{
+    display:flex;
+	justify-content:flex-start;
+	font-size: 25px;
+    margin-top: 50px;
+}
+
+.carnedefrango1{
+    display:flex;
+	justify-content:space-around;
+	font-size: 25px;
+}
+
+.carnedefrango1 img{
+     height: 150px;
+     border-radius:20px;
+}
+
+.carnedefrango1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.carnedefrango1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.Salada h3{
+    display:flex;
+	justify-content:center;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.salada1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 50px;
+}
+
+.salada1 img{
+    height: 150px;
+    border-radius:20px;
+}
+
+.salada1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.salada1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.Tempero{
+    display:flex;
+	justify-content:flex-start;
+	font-size: 27px; 
+    margin-top: 40px;
+}
+
+.tempero1{
+    display:flex;
+	justify-content:space-around;
+}
+
+.tempero1 img{
+    height: 150px;
+    border-radius:20px;
+}
+
+.tempero1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.tempero1 h4{
+    font-size: 25px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.botao123{
+	display:flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+/* Contato */
+.cto{
+   padding: 100px;    
+}
+
+.contato{
+    padding-right: 70%;
+    margin-top: -10px;
+    margin-left: 10px
+}
+
+.contato h1{
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.contato h6{
+   font-size: 15px;
+   margin-top: 5px;
+}
+
+.contato h2{
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.tbl{
+    width: 60%;
+    padding: 3px;
+    margin-bottom: 5%;
+    margin-top: -5px;
+    border-radius: 5px; 
+}
+
+.btn{
+     border: thin solid #333;
+     border-radius: 5px;
+     margin-bottom: 5%;
+     margin-top: 100px;
+     margin-left: -100px;
+}
+
+.mapa{
+    margin-left: 800px;
+    margin-top: -45%; 
+}
+
+.nome h1{
+    font-size: 20px;
+    margin-top: -45px;
+    margin-left: 95px;
+}
+
+.nome input{
+    margin-right: 25px;
+}
+
+.sobre input{
+    margin-right: 45px;
+}
+
+.sobrenome h1{
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 95px;
+}
+
+.telefone h1{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 95px;
+}
+
+.email h1{
+    font-size: 20px;
+    margin-top: -35px;
+    margin-left: 95px;
+}
+
+.mensagem h1{
+    font-size: 20px;
+    margin-top: -35px;
+    margin-left: 95px;
+}
+
+/* CALENDARIO */
+.agt{
+  padding: 10px;    
+}
+
+.agendamento{
+    margin-top: 100px; 
+    font-family: 'Merienda', cursive;
+}
+
+#calendar{
+	margin-top: 100px;
+    width: 70%;
+    margin-left: 350px;
+}
+
+.fc-head{
+	background: #00BFFF;
+	font-size: 1em;
+}
+
+.fc-body{
+	background: #87CEFA;
+	font-size: 1em;
+}
+
+.fc-center{
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+.fc-right{
+	font-size:1.2em;
+}
+
+.fc-button-group{
+	font-size:1em;
+}
+
+.fc-table{
+	width: 80%;
+}
+
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+.icon  .label {
+			display: none;
+}
+
+.icon.major {
+			display: inline-block;
+			margin: 0 0 1.25em 0;
+			color: #ffffff;
+			background: #629DD1;
+			width: 3em;
+			height: 3em;
+			font-size: 2em;
+			text-align: center;
+			line-height: 3em;
+			border-radius: 100%;
+			box-shadow: 0 0 0 10px #fff, 0 0 0 11px rgba(144, 144, 144, 0.25);
+		}
+
+
+
+
+
+@media not all and (max-width:480px){
+    .abrir-menu,
+    .fechar-menu{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    #header{
+        flex-direction: column;
+    } 
+    #header nav{ 
+        width: 100%;
+    }
+    #menu-fixo{
+        height: 180px;
+    }
+
+    #header nav ul li:hover > ul{
+        display: block;
+        margin-top: 2px;
+    }
+     
+    #banner{
+        width: 100%;
+    }
+    
+    #banner h1{
+        width: 100%;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+

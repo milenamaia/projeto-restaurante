@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+
+ <html lang="pt-BR">
+
+    <head><!-- Instruções do Doc -->
+        
+        <title>Gulemar</title> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" charset="Restaurante,">
+        <meta name="description" charset="Gulemar ">
+        <meta name="author" charset="Restaurante">
+		
+		<link href="css/estilo.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+	
+		 <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+		
+		<link href="css/animate.css" rel="stylesheet" type="text/css">
+        <link href="js/Banner.js" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+      		
+		
+	
+    </head>
+	 
+     <body>
+        <main class="site">
+            
+        <hr class="cinza">
+            
+            <!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+                        <div class="logo">
+                            <img src="img/gulemarsem.png" alt="logo">
+                       </div>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="index.php #sobre">Sobre</a></li>
+						<li><a href="index.php #cardapio">Cardápio</a></li>
+						<li><a href="index.php #eventos">Eventos</a></li>
+                        <li><a href="index.php #contato">Contato</a></li>
+					</ul>
+				</nav>
+                <div class="btnLogin">
+                    <button  onclick="document.getElementById('id01').style.display='block'"><a>Entrar</a></button>
+                    </div>
+                 <div class="btncadastro">
+                    <button  onclick="document.getElementById('id10').style.display='block'"><a>Cadastro</a></button>
+                     </div>
+			</header>
+             <!-- LOGIN -->
+            <div id="id01" class="modal">
+  
+      <form class="modal-content animate" action="index.php">
+          <div class="imgcontainer">
+         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+      <div class="container">
+        <label for="uname"><b>Nome</b></label>
+        <input type="text" placeholder="Seu nome" name="uname" required>
+
+        <label for="psw"><b>Senha</b></label>
+        <input type="password" placeholder="Sua senha" name="psw" required>
+        
+        <button type="submit">Entrar</button>
+
+     </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancela</button>
+    </div>
+  </form>
+</div>
+            
+</div>
+			<hr class="ver">
+            
+             <div class="vege">
+                <p class="animated rubberBand">Vegetariano</p>
+                <img src="img/cardapio/vegetariano/vege-5.png" alt="Banner">
+             </div>
+            
+		<section class="vegetariano1">
+		 	<article>
+				<img class="vta" src="img/cardapio/vegetariano/vege-hamburguer-de-Lentilha.jpg" alt="hamburguer-de-Lentilha">
+                <h2>Hambúrguer de Lentilha</h2>
+				<h4>Preço: R$ 22,40</h4>
+			</article>
+		
+			<article>
+				<img  class="vta" src="img/cardapio/vegetariano/vege-berinjela-recheada-com-ricota.jpg" alt="berinjela-recheada-com-ricota">
+				<h2>Berinjela recheada com ricota</h2>
+				<h4>Preço: R$ 15,00</h4>
+			</article>
+			
+			<article>
+				<img  class="vta" src="img/cardapio/vegetariano/vege-bolinhos-de-abobrinha.jpg" alt="bolinhos-de-abobrinha">
+                <h2>Bolinhos de Abobrinha</h2>
+				<h4>Preço: R$ 20,00</h4>
+			</article>
+		   </section> 
+         
+		   <section class="vegetariano2">
+		    <article>
+				<img  class="vta" src="img/cardapio/vegetariano/vege-risoto-de-cenoura.jpg" alt="risoto-de-cenoura">
+				<h2>Risoto de cenoura</h2>
+				<h4>Preço: R$ 20,00</h4>
+			</article>
+		 
+		    <article>
+				<img  class="vta" src="img/cardapio/vegetariano/vege-rolinhos-vietnamitas.jpg" alt="rolinhos-vietnamitas">
+				<h2>Rolinhos vietnamitas</h2>
+				<h4>Preço: R$ 15,05</h4>
+			</article>
+		 
+			<article>
+				<img  class="vta" src="img/cardapio/vegetariano/vege-sufle-de-cenoura.jpg" alt="sufle-de-cenoura">
+				<h2>Sufle de cenoura</h2>
+				<h4>Preço: R$ 25,50</h4>
+ 			</article>
+		 </section>
+   
+     <!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<div class="6u">
+							<div class="row collapse-at-2">
+								<div class="6u">
+								   <div class="col-md-4 col-lg-3 footer-about wow fadeInUp">
+		        			       <img src="img/gulemarsem.png" style="width: 120px; margin-top: 50px;">		    	 			
+	                                </div>
+					 			</div>
+								<div class="6u">
+								     <h3>Contato</h3>
+									<ul class="alt">
+										<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
+		        		    
+		                	<p><i class="fas fa-map-marker-alt"></i>Avenida Marechal Tito, 1500 - São Miguel Paulista, São Paulo - SP</p>
+		                	<p><i class="fas fa-phone"></i> Telefone: (11) 2514-8577</p>
+		                	<p><i class="fas fa-envelope"></i> E-mail: <a href="mailto:hello@domain.com">Gulemar@gmail.com.br</a></p>
+	                        </div>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="6u">
+							<ul class="icons">
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Gulemar</li>
+					</ul>
+				</div>
+			</footer>	
+   
+		 </main>
+         
+         <script src="js/jquery-3.3.1.min.js"></script>
+		 <script src="js/jquery-migrate-3.0.0.min.js"></script>
+         <script src="js/moment.min.js"></script>
+         <script src="js/fullcalendar.js"></script>
+         <script src="js/calendario.js"></script>
+         
+         <script src="js/wow.min.js"></script>
+         <script src="js/retina-1.1.0.min.js"></script>
+         <script src="js/scripts.js"></script>
+       
+         <script src="js/pt-br.js"></script>
+		 
+		 
+        </body>
+        </html>
+
+        
+
+    
+        
+        
+
+
+
+
+
+        
+        
+        
