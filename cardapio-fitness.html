@@ -2,7 +2,7 @@
 
  <html lang="pt-BR">
 
-    <head><!-- Instruções do Doc -->
+    <head>
         
         <title>Gulemar</title> 
         <meta charset="utf-8">
@@ -33,11 +33,7 @@
 	
     </head>
 	 
-     <body>
-        <main class="site">
-            
-        <hr class="cinza">
-            
+     <body> 
             <!-- Header -->
 			<header id="header" class="skel-layers-fixed">
                         <div class="logo">
@@ -50,71 +46,9 @@
 						<li><a href="index.php #cardapio">Cardápio</a></li>
 						<li><a href="index.php #eventos">Eventos</a></li>
                         <li><a href="index.php #contato">Contato</a></li>
-                        <li><a href="index.php #agendamento">Agendamento</a></li>
 					</ul>
 				</nav>
-                <div class="btnLogin">
-                    <button  onclick="document.getElementById('id01').style.display='block'"><a>Entrar</a></button>
-                    </div>
-                 <div class="btncadastro">
-                    <button  onclick="document.getElementById('id10').style.display='block'"><a>Cadastro</a></button>
-                     </div>
 			</header>
-			 <!-- LOGIN -->
-            <div id="id01" class="modal">
-  
-      <form class="modal-content animate" action="index.php">
-          <div class="imgcontainer">
-         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-
-      <div class="container">
-        <label for="uname"><b>Nome</b></label>
-        <input type="text" placeholder="Seu nome" name="uname" required>
-
-        <label for="psw"><b>Senha</b></label>
-        <input type="password" placeholder="Sua senha" name="psw" required>
-        
-        <button type="submit">Entrar</button>
-
-     </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancela</button>
-    </div>
-  </form>
-</div>
-            
-             
-             <!-- CADASTRO -->
-            <div id="id10" class="modal">
-  
-      <form class="modal-content animate" action="enviar.php">
-          <div class="imgcontainer">
-         <span onclick="document.getElementById('id10').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-
-      <div class="container">
-        <label for="uname"><b>Nome</b></label>
-        <input type="text" placeholder="Digite seu nome" name="nome" required>
-          
-        <label for="uname"><b>Sobrenome</b></label>
-        <input type="text" placeholder="Digite seu sobrenome" name="nome" required>
-          
-        <label for="uname"><b>E-mail</b></label>
-        <input type="text" placeholder="Digite seu email" name="nome" required>
-          
-        <label for="psw"><b>Senha</b></label>
-        <input type="password" placeholder="Sua senha" name="psw" required>
-        
-        <button type="submit">Entrar</button>
-
-     </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id10').style.display='none'" class="cancelbtn">Cancela</button>
-    </div>
-  </form>
 </div>
          <div class="fit">
                 <p>Fitness</p>
@@ -126,21 +60,18 @@
 				<img class="fits" src="img/cardapio/fitness/caldo-verde.png" alt="caldo-verde.png">
 				<h2>Caldo verde</h2>
 				<h4>Preço: R$ 16,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		
 			<article>
 				<img class="fits" src="img/cardapio/fitness/sopa-de-mandioquinha.png" alt="sopa-de-mandioquinha">
 				<h2>Sopa de mandioquinha</h2>
 				<h4>Preço: R$ 16,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 			
 			<article>
 				<img class="fits" src="img/cardapio/fitness/mix-de-cogumelos.jpg" alt="mix-de-cogumelos">
 				<h2>Mix de cogumelos</h2>
 				<h4>Preço: R$ 16,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 </section> 
          
@@ -149,24 +80,21 @@
 				<img class="fits" src="img/cardapio/fitness/cookie-integral.png" alt="cookie-integral">
 				<h2>Cookie - gotas de chocolate amargo</h2>
 				<h4>Preço: R$ 3,50</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 
 		 <article>
 				<img class="fits" src="img/cardapio/fitness/strogonoff-com-arroz.png" alt="strogonoff-com-arroz">
 				<h2>Strogonoff  de frango com arroz integral</h2>
 				<h4>Preço: R$ 18,90</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 
 			<article>
 				<img class="fits" src="img/cardapio/fitness/salmao-grelhado+aspargos.png" alt="salmao-grelhado+aspargos">
 				<h2>Salmao grelhado+aspargos</h2>
 				<h4>Preço: R$ 37,40</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
-    
 		 </section>
+
 	<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
@@ -203,21 +131,7 @@
 					</ul>
 				</div>
 			</footer>	
-   
 		 </main>
-         
-         <script src="js/jquery-3.3.1.min.js"></script>
-		 <script src="js/jquery-migrate-3.0.0.min.js"></script>
-         <script src="js/moment.min.js"></script>
-         <script src="js/fullcalendar.js"></script>
-         <script src="js/calendario.js"></script>
-         
-         <script src="js/wow.min.js"></script>
-         <script src="js/retina-1.1.0.min.js"></script>
-         <script src="js/scripts.js"></script>
-       
-         <script src="js/pt-br.js"></script>
-		 
 		 
         </body>
         </html>

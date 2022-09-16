@@ -30,112 +30,46 @@
         <link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
       		
-		
-	
-    </head>
-	 
+		 <!-- Header -->
+		 <header id="header" class="skel-layers-fixed">
+			<div class="logo">
+				<img src="img/gulemarsem.png" alt="logo">
+		   </div>
+	<nav id="nav">
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="index.php #sobre">Sobre</a></li>
+			<li><a href="index.php #cardapio">Cardápio</a></li>
+			<li><a href="index.php #eventos">Eventos</a></li>
+			<li><a href="index.php #contato">Contato</a></li>
+		</ul>
+	</nav>
+ 
+		</header>
+ 
      <body>
-            <!-- Header -->
-			<header id="header" class="skel-layers-fixed">
-                        <div class="logo">
-                            <img src="img/gulemarsem.png" alt="logo">
-                       </div>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="index.php #sobre">Sobre</a></li>
-						<li><a href="index.php #cardapio">Cardápio</a></li>
-						<li><a href="index.php #eventos">Eventos</a></li>
-                        <li><a href="index.php #contato">Contato</a></li>
-                        <li><a href="index.php #agendamento">Agendamento</a></li>
-					</ul>
-				</nav>
-             
-			</header>
-             <!-- LOGIN -->
-            <div id="id01" class="modal">
-  
-      <form class="modal-content animate" action="index.php">
-          <div class="imgcontainer">
-         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-
-      <div class="container">
-        <label for="uname"><b>Nome</b></label>
-        <input type="text" placeholder="Seu nome" name="uname" required>
-
-        <label for="psw"><b>Senha</b></label>
-        <input type="password" placeholder="Sua senha" name="psw" required>
-        
-        <button type="submit">Entrar</button>
-
-     </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancela</button>
-    </div>
-  </form>
-</div>
-            
-             
-             <!-- CADASTRO -->
-            <div id="id10" class="modal">
-  
-      <form class="modal-content animate" action="enviar.php">
-          <div class="imgcontainer">
-         <span onclick="document.getElementById('id10').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-
-      <div class="container">
-        <label for="uname"><b>Nome</b></label>
-        <input type="text" placeholder="Digite seu nome" name="nome" required>
-          
-        <label for="uname"><b>Sobrenome</b></label>
-        <input type="text" placeholder="Digite seu sobrenome" name="nome" required>
-          
-        <label for="uname"><b>E-mail</b></label>
-        <input type="text" placeholder="Digite seu email" name="nome" required>
-          
-        <label for="psw"><b>Senha</b></label>
-        <input type="password" placeholder="Sua senha" name="psw" required>
-        
-        <button type="submit">Entrar</button>
-
-     </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id10').style.display='none'" class="cancelbtn">Cancela</button>
-    </div>
-  </form>
-</div>
-			<hr class="ver">
-           
-              <div class="lan">
+			</div>
                 <p class="animated rubberBand">Lanches</p>
                 <img src="img/cardapio/lanches/Batata-frita.png" alt="Banner">
              </div>
             
 		<section class="lanches1">
 		 	<article>
-                <?php foreach($cardalist as $linha): ?>
-				<img class="lacs" src="<?php echo "img/".$linha['img'] ?>" alt="Coxinha-de-frango">
-				<h2><?php echo $linha['titulo'] ?></h2>
-				<h4><?php echo $linha['preco'] ?></h4>
-                <?php endforeach ?>
+				<img class="lacs" src="img/cardapio/lanches/Batata-frita.png" alt="Coxinha-de-frango">
+				<h2></h2>
+				<h4></h4>
 			</article>
 		
 			<article>
 				<img class="lacs" src="img/cardapio/lanches/lan-esfirra-fechada-de-carne.jpg" alt="esfirra-fechada-de-carne">
 				<h2>Esfirra fechada de carne</h2>
 				<h4>Preço: R$ 3,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 			
 			<article>
 				<img class="lacs" src="img/cardapio/lanches/lan-hamburguer-com-batata-frita.jpg" alt="hamburguer-com-batata-frita">
 				<h2>Hambúrguer</h2>
 				<h4>Preço: R$ 7,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 </section> 
          
@@ -144,21 +78,18 @@
 				<img class="lacs" src="img/cardapio/lanches/lan-hot-dog.jpg" alt="hot-dog">
 				<h2>Hot dog</h2>
 				<h4>Preço: R$ 5,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 
 		 <article>
 				<img class="lacs" src="img/cardapio/lanches/lan-pastel-de-carne.jpg" alt="pastel-de-carne">
 				<h2>Pastel de carne</h2>
 				<h4>Preço: R$ 2,50</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 
 			<article>
 				<img class="lacs" src="img/cardapio/lanches/lan-x-tudo.jpg" alt="x-tudo">
 				<h2>X-tudo</h2>
 				<h4>Preço: R$ 5,00</h4>
-                <button class="btnqresse"><a>Quero esse</a></button>
 			</article>
 		 </section>
         
@@ -200,20 +131,6 @@
 			</footer>	
    
 		 </main>
-         
-         <script src="js/jquery-3.3.1.min.js"></script>
-		 <script src="js/jquery-migrate-3.0.0.min.js"></script>
-         <script src="js/moment.min.js"></script>
-         <script src="js/fullcalendar.js"></script>
-         <script src="js/calendario.js"></script>
-         
-         <script src="js/wow.min.js"></script>
-         <script src="js/retina-1.1.0.min.js"></script>
-         <script src="js/scripts.js"></script>
-       
-         <script src="js/pt-br.js"></script>
-		 
-		 
         </body>
         </html>
 

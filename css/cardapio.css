@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+/* SOBREMESAS */
+.mesa img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    height: 755px;
+    margin-bottom:1px;
+}
+
+.mesa p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 655px;
+    margin-top: 270px;
+    font-family: 'Lobster', cursive;
+}
+
+.sobremesa1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 70px;
+}
+
+.sobremesa1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.sobremesa1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.sobremesa1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.sobremesa2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 80px;
+}
+
+.sobremesa2 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.sobremesa2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.sobremesa2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.sbs:hover {
+   transform: scale(1.1);
+}
+
+/* ---------- */
+
+/* LANCHES */
+.lan img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+.lan p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 785px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.lanches1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.lanches1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+    margin-top: 50px;
+}
+
+.lanches1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.lanches1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.lanches2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.lanches2 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.lanches2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.lanches2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.lacs:hover {
+   transform: scale(1.1);
+}
+
+/* ---------- */
+
+/* VEGETARIANOS */
+.vege img{
+	width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+ 
+.vege p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 755px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.vegetariano1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.vegetariano1 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.vegetariano1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+     font-family: 'Rasa', serif;
+}
+
+.vegetariano1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vegetariano2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 150px;
+}
+
+.vegetariano2 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.vegetariano2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.vegetariano2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vta:hover {
+   transform: scale(1.1);
+}
+
+/* ---------- */
