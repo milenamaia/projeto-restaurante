@@ -225,3 +225,218 @@
 }
 
 /* ---------- */
+
+/* FITNESS */
+.fit img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+.fit p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 755px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.fitness1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.fitness1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.fitness1 h2{
+   font-size: 25px;
+   margin-top: 10px; 
+   font-family: 'Rasa', serif;
+}
+
+.fitness1 h4{
+    font-size: 35px;
+    margin-top: -5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.fitness2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 150px;
+}
+
+.fitness2 img{
+    height: 300px;
+    width: 500px;    
+    border-radius:20px;
+}
+
+.fitness2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.fitness2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.fits:hover {
+   transform: scale(1.1);
+}
+
+/* ---------- */
+
+/* VEGANOS */
+.gano img{
+	width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+ 
+.gano p{
+    width: 1950px;
+    position: absolute;
+    font-size: 85px;
+    color:#1874CD;
+    margin-left: 755px;
+    margin-top: 250px;
+    font-family: 'Lobster', cursive;
+}
+
+.vegano1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.vegano1 img{
+    height: 300px;
+    width: 500px;
+    border-radius:20px;
+}
+
+.vegano1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.vegano1 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vegano2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 150px;
+}
+
+.vegano2 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.vegano2 h2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.vegano2 h4{
+    font-size: 35px;
+    margin-top: 5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.vga:hover {
+   transform: scale(1.1);
+}
+
+/* ---------- */
+
+/* BEBIDAS */
+.be img{
+    width: 1950px;
+    border-width: 15px;
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom:1px;
+    height:600px;
+}
+
+
+.bebidas1{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 55px;
+}
+
+.bebidas1 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.bebidas1 h2{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Rasa', serif;
+}
+
+.bebidas1 h4{
+    font-size: 35px;
+    margin-top: -5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.bebidas2{
+    display:flex;
+	justify-content:space-around;
+    margin-top: 100px;
+}
+
+.bebidas2 img{
+    height: 300px;
+    border-radius:20px;
+}
+
+.bebidas2 h2{
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Rasa', serif;
+}
+
+.bebidas2 h4{
+    font-size: 35px;
+    margin-top: -5px;
+    color: #871F78;
+    font-family: 'Rancho', cursive;
+}
+
+.bbd:hover {
+   transform: scale(1.1);
+}
+
+/* ---------- */
