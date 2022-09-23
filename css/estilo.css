@@ -18,69 +18,30 @@ body{
 /* BANNNER */
 
 .Banner img{
-    width: 1950px;
-    border-width: 15px;
     max-width: 100%;
-    margin-bottom:1px;
-    height: 974px;
-}
-
-.Banner  h1{
-    width: 1950px;
-    position: absolute;
-    font-size: 80px;
-    color: #EE3B3B;
-    font-family: 'Merienda', cursive;
-    margin-left: 350px;
-    margin-top: 410px;
 }
 
 /* SOBRE */ 
-.bre{
-  background-image:url(../img/midasobre.jpg);
-  background-size:100% 100%;
-  width:100%;
-  height:890px;
-  margin-top:150px;
-  background-attachment: fixed;
-}
 
-.logosobre{
+.sobre1 img{
     display: flex;
-    margin-top: -500px;
-    margin-left: 300px;  
-}
-
-.logosobre img{
     border-radius:50px;
-    margin-top:-288px;
-    margin-left: -250px;
+    margin-left: 50px;
     max-width: 700px;
+    margin-top: 50px;
 }
 
 .sobre1 h1 {
     position: absolute;
     left: 75%;
-    bottom: -650px;
+    bottom: -220px;
 }
-
-.ver{
-    margin: 0;
-    border: 0px; 
-}
-
-.cinza{
-    margin: 0;
-    border: 0px;
-}
-
-.btn{
-	display: flex;
-	margin-right:15px;
-}
-
-.me{
-    padding: 1px;
+.sobre1 p{
+    position: absolute;
+    text-align: center;
+    max-width: 400px;
+    top: 950px;
+    left: 65%;
 }
 
 .menu{
@@ -138,9 +99,7 @@ body{
    transform: scale(1.1);
 }
 
-
 .cto{
-  background-image:url(../img/Porto-e-Norte-de-Portugal.jpg);
   background-size:100% 100%;
   width: 100%;
   height: 910px;
@@ -148,13 +107,10 @@ body{
   margin-top: 80px;
 }
 
-
-
 .icones article{
 	display: flex;
 	justify-content: flex-end;
 }
-
 
 .Senha{
    display: flex;

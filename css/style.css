@@ -24,10 +24,9 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 3.2em;
+			right: -14em;
 			top: 0;
 			vertical-align: middle;
-			text-align: end;
 }
 
 #header nav  ul {
