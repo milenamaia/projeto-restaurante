@@ -1,5 +1,9 @@
+@charset "utf-8";
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://allfont.net/allfont.css?fonts=quicksand-regular');
 
 
 body{
@@ -36,12 +40,14 @@ body{
     left: 75%;
     bottom: -220px;
 }
+
 .sobre1 p{
     position: absolute;
     text-align: center;
     max-width: 400px;
     top: 950px;
     left: 65%;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .fundo{
@@ -69,10 +75,9 @@ body{
 .menu{
     display: flex;
     justify-content: center;
-	margin: 70px;
-    margin-top: 85px;
+    margin-top: 40px;
     font-family: 'Merienda', cursive;
-    color: #FF6347;
+    color: red;
 }
 
 .menu h1{
@@ -84,7 +89,7 @@ body{
     justify-content:space-around;
     font-size: 40px;
 	margin: 45px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .menu1 article a{
@@ -145,8 +150,12 @@ body{
 }
 
 .eve p{
-    position: absolute;
-    top: 525%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .icones article{
