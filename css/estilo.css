@@ -33,19 +33,19 @@ body{
     border-radius:50px;
     margin-left: 10%;
     width: 500px;
-    margin-top: -40px;
+    margin-top: -70px;
 }
 
 .sobre1 h1 {
     font-family: 'Quicksand-Regular';
     font-size: 45px;
-    margin-left: 75%;
+    margin-left: 70%;
     padding-top: 65px;
 }
 
 .sobre1 p{
     margin: auto;
-    margin-top: -440px;
+    margin-top: -410px;
     margin-left: 50%;
     font-size: 16px;
     font-family: 'Raleway-Regular';
