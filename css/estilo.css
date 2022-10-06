@@ -33,22 +33,22 @@ body{
     border-radius:50px;
     margin-left: 10%;
     width: 500px;
-    margin-top: 60px;
+    margin-top: -40px;
 }
 
 .sobre1 h1 {
     font-family: 'Quicksand-Regular';
     font-size: 45px;
     margin-left: 75%;
-    padding-top: 35px;
+    padding-top: 65px;
 }
 
 .sobre1 p{
+    margin: auto;
+    margin-top: -440px;
+    margin-left: 50%;
     font-size: 16px;
     font-family: 'Raleway-Regular';
-    width: 515px;
-    padding-left: 20px;
-    margin-left: 55%;
 }
 
 .sobre1 h1 p{
@@ -63,7 +63,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #f6f5f4;
-    margin-top: 35px;
+    margin-top: 440px;
 }
 
 .fundo1{
