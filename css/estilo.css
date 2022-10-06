@@ -32,7 +32,7 @@ body{
     display: flex;
     border-radius:50px;
     margin-left: 10%;
-    width: 500px;
+    width: 550px;
     margin-top: -70px;
 }
 
@@ -45,8 +45,9 @@ body{
 
 .sobre1 p{
     margin: auto;
+    text-align: justify;
     margin-top: -410px;
-    margin-left: 50%;
+    margin-left: 55%;
     font-size: 16px;
     font-family: 'Raleway-Regular';
 }
@@ -63,7 +64,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #f6f5f4;
-    margin-top: 440px;
+    margin-top: 380px;
 }
 
 .fundo1{
@@ -93,15 +94,13 @@ body{
 .menu1{
     display: flex;
     justify-content:space-around;
-    font-size: 40px;
-	margin: 45px;
-    margin-top: 60px;
+    padding: 95px 250px 0px 250px
 }
 
 .menu1 article a{
 	display: flex;
 	justify-content:space-around;
-	font-size: 25px;
+	font-size: 20px;
     color: black;
     text-decoration: none; 
     font-family: 'Quicksand Regular';
@@ -110,19 +109,17 @@ body{
 .menu2{
     display: flex;
     justify-content:space-around;
-    font-size: 50px;
-	margin: 40px;
-    margin-top: 45px;
+    padding: 100px 290px 0px 230px
 }
 
 .menu2 img{
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 .menu2 article a{
     display: flex;
 	justify-content:space-around;
-	font-size: 25px;
+	font-size: 20px;
     color: black;
     text-decoration: none;
     font-family: 'Raleway-Regular';
@@ -152,12 +149,13 @@ body{
 }
  
 .eve article img {
-    max-width: 350px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    border-radius: 10px;
 }
 
 .eve p{
-    display: flex;
-    justify-content: space-around;
     font-size: 25px;
     color: black;
     text-decoration: none;
