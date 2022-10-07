@@ -83,7 +83,7 @@ body{
     justify-content: center;
     padding-top: 35px;
     font-family: 'Merienda';
-    color: red;
+    color: #b33042;
 }
 
 .menu h1{
@@ -120,7 +120,7 @@ body{
     display: flex;
 	justify-content:space-around;
 	font-size: 20px;
-    color: black;
+    color: #000000;
     text-decoration: none;
     font-family: 'Raleway-Regular';
 }
@@ -129,10 +129,12 @@ body{
    transform: scale(1.1);
 }
 
-#eveti{
+.eveti{
     text-align: center;
-    margin-top: 40px;
+    padding-top: 40px;
     font-size: 50px;
+    font-family: 'Quicksand Regular';
+    color: #b33042;
 }
 
 .eve{
@@ -151,15 +153,16 @@ body{
 .eve article img {
     display: flex;
     justify-content: space-around;
-    max-width: 500px;
+    max-width: 520px;
     border-radius: 10px;
 }
 
-.eve p{
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    font-family: 'Fjalla One', sans-serif;
+.evenome {
+    display: flex;
+    justify-content:space-around;
+    font-size: 35px;
+    color: #000000;
+    font-family: 'Raleway-Regular';
 }
 
 .icones article{
@@ -244,11 +247,6 @@ body{
     margin-bottom: 5%;
     margin-top: -5px;
     border-radius: 5px; 
-}
-
-.mapa{
-    margin-left: 800px;
-    margin-top: -45%; 
 }
 
 .nome h1{
