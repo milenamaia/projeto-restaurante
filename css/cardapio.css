@@ -1,76 +1,86 @@
 @charset "utf-8";
 
 /* SOBREMESAS */
-.mesa img{
-    width: 1950px;
-    border-width: 15px;
-    max-width: 100%;
-    height: 755px;
-    margin-bottom:1px;
-}
-
-.mesa p{
-    width: 1950px;
-    position: absolute;
-    font-size: 85px;
-    color:#1874CD;
-    margin-left: 655px;
-    margin-top: 270px;
-    font-family: 'Lobster', cursive;
-}
-
 .sobremesa1{
     display:flex;
 	justify-content:space-around;
-    margin-top: 70px;
+    padding: 130px 0px 0px 50px
 }
 
 .sobremesa1 img{
-    height: 300px;
-    width: 500px;
-    border-radius:20px;
+    width: 230px;
+    height: 190px;
+    border-radius: 20px;
 }
 
 .sobremesa1 h2{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
-    font-family: 'Rasa', serif;
+    text-align: center;
+    font-family: 'Rasa, serif';
 }
 
 .sobremesa1 h4{
-    font-size: 35px;
+    font-size: 20px;
+    text-align: center;
     margin-top: 5px;
-    color: #871F78;
-    font-family: 'Rancho', cursive;
+    color: #000000;
 }
 
 .sobremesa2{
     display:flex;
 	justify-content:space-around;
-    margin-top: 80px;
+    padding: 65px 0px 0px 50px
 }
 
 .sobremesa2 img{
-    height: 300px;
-    width: 500px;
-    border-radius:20px;
+    width: 230px;
+    height: 190px;
+    border-radius: 20px;
 }
 
 .sobremesa2 h2{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
-    font-family: 'Rasa', serif;
+    text-align: center;
+    font-family: 'Rasa, serif';
 }
 
 .sobremesa2 h4{
-    font-size: 35px;
+    font-size: 20px;
+    text-align: center;
     margin-top: 5px;
-    color: #871F78;
-    font-family: 'Rancho', cursive;
+    color: #000000;
 }
 
 .sbs:hover {
    transform: scale(1.1);
+}
+
+.sobremesa3{
+    display:flex;
+	justify-content:space-around;
+    padding: 130px 0px 0px 50px
+}
+
+.sobremesa3 img{
+    width: 230px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.sobremesa3 h2{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Rasa, serif';
+}
+
+.sobremesa3 h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    color: #000000;
 }
 
 /* ---------- */

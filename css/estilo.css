@@ -90,7 +90,12 @@ body{
     font-size: 75px;
     font-family: 'Quicksand Regular';
 }
-    
+
+.menu1 img{
+    width: 100px;
+    height: 100px;
+}
+
 .menu1{
     display: flex;
     justify-content:space-around;
@@ -194,25 +199,6 @@ body{
     margin-left: 655px;
     margin-top: 250px;
     font-family: 'Lobster', cursive;
-}
-
-.cardapio1{
-	display:flex;
-	justify-content:space-around;
-	font-size: 25px; 
-    margin-top: 50px;
-}
-
-.cardapio1 img{
-    height: 150px;
-    border-radius:20px;
-}
-
-.cardapio1 h2{
-    font-size: 25px;
-    margin-top: 10px;
-    font-family: 'Rasa', serif;
-    font-family: 'Quicksand Regular', arial;
 }
 
 /* Contato */
