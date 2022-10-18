@@ -204,35 +204,96 @@
         </section><!--fim da seção de carta de vinhos-->
 
                  <section class="fundo1"></section> 
+<!-- -----------------------início da sessão eventos------------------- -->
+<section class="eventos">
+    <div class="container">
+      <div class="eventos-um wow slideInLeft" data-wow-duration="2s">
+          <article class="art-1">
+                  <img src="img/eventos-sociais.jpg" alt="uma mulher servindo a mesa e checando últimos preparativos de um evento social" title="eventos sociais">
+                  <h3>Eventos sociais</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+          </article>
+          <article class="art-2">
+                  <img src="img/eventos-corporativos.jpg" alt="três colegas de trabalho fazendo uma reunião em torno de uma mesa de um evento corporativo" title="eventos corporativos">
+                  <h3>Eventos corporativos</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+          </article>
+      </div>
 
-                                <!-- -----------------------início da sessão eventos------------------- -->
-        <section class="eventos">
-            <div class="container">
-              <div class="eventos-um wow slideInLeft" data-wow-duration="2s">
-                  <article class="art-1">
-                          <img src="img/eventos-sociais.jpg" alt="uma mulher servindo a mesa e checando últimos preparativos de um evento social" title="eventos sociais">
-                          <h3>Eventos sociais</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
-                  </article>
-                  <article class="art-2">
-                          <img src="img/eventos-corporativos.jpg" alt="três colegas de trabalho fazendo uma reunião em torno de uma mesa de um evento corporativo" title="eventos corporativos">
-                          <h3>Eventos corporativos</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
-                  </article>
+      <div class="eventos-dois wow slideInRight" data-wow-duration="4s">
+        <article>
+              <img src="img/eventos-casamento.jpg" alt="cerimonial de casamento em que duas pessoas estão juntas e de mãos dadas enquanto um fotógrafo registra o momento" title="cerimonial de casamento">
+              <h3>Casamentos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+              <div id="classe">
+                      <h3>Interessou-se por nossos serviços? Entre em contato!</h3>
+                      <button id="modalBtn" class="botao">Solicitar orçamento</button>
               </div>
-  
-              <div class="eventos-dois wow slideInRight" data-wow-duration="4s">
-                <article>
-                      <img src="img/eventos-casamento.jpg" alt="cerimonial de casamento em que duas pessoas estão juntas e de mãos dadas enquanto um fotógrafo registra o momento" title="cerimonial de casamento">
-                      <h3>Casamentos</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+
+              <!-- O modal -->
+              <div id="meuModal" class="modal">
+                  <div class="modal-conteudo">
+                      <span class="fecharBtn">&times;</span>
+
+                      <form action="orcamento_enviar.php" method="post">
+                          <fieldset>
+                              <h3>Orçamento</h3>
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur delectus nulla distinctio, accusamus lorem ipsum dolor amet sit cacildis eits mussum hipster ommodi maxime, sit consectetur quos eveniet veritatis repellat.</p>
+
+                              <div class="form-1">
+                                  <input type="text" placeholder="Nome Completo" id="nome" name="nome" required>
+                                  <input type="text" placeholder="Empresa" name="empresa" id="empresa">
+                              </div>
+
+                              <div class="form-1">
+                                      <input type="tel" placeholder="Telefone (celular)" name="tel" id="tel">
+                                      <input type="email" placeholder="Seu e-mail aqui" id="email" name="email" required>
+                              </div>
+
+                              <div class="form-1">
+                                      <input type="date" placeholder="Data" name="data" id="data" required>
+                                      <select id="selecao" name="selecao">
+                                          <option value="assunto">Período</option>
+                                          <option value="manha">Manhã</option>
+                                          <option value="tarde">Tarde</option>
+                                          <option value="noite">Noite</option>
+                                          <option value="outros">Outros</option>
+                                      </select>
+                              </div>
+
+                              <div>
+                                      <select class="convidados" name="convidados">
+                                              <option value="convidados">Quantidade de Convidados</option>
+                                              <option value="quantia1">10 ou +</option>
+                                              <option value="quantia2">20 ou +</option>
+                                              <option value="quantia3">30 ou +</option>
+                                              <option value="quantia4">40 ou +</option>
+                                              <option value="quantia5">50 ou +</option>
+                                            </select>
+                              </div>
+                              <div><textarea cols="30" rows="10" id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea></div>
+                              <div><input type="submit" value="Enviar"></div>
+
+
+
+
+                          </fieldset>
+                      </form>
+
+                  </div>
+              </div> <!------------------------ fim do modal-------------------->
+        </article>
+      </div>
+
+    </div>
+  </section> <!-- fim da section eventos-->
   
 			  
         <!-- --------------início do footer--------------------- -->
         <footer class="rodape">
             <div class="rodape-items">
                <div class="rodape-logo">
-                  <a href="index.html"><img src="img/logo_white.svg" alt="logo da Steak House Gurmet"></a> 
+                  <a href="index.html"><img src="img/logo.png" alt="logo da Steak House Gurmet"></a> 
                </div>
                <div class="rodape-endereco">
                    <p>Rua da Glória, 666 - Aclimação, SP
@@ -253,7 +314,7 @@
             </script>
              <script src="js/main.js">
             </script>
-            
+
         </body>
         </html>
 
