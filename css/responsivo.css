@@ -1,0 +1,187 @@
+@media only screen and (min-width:300px) and (max-width:700px) {
+    /* menu responsivo */
+    label{
+        display:block;
+        cursor:pointer;
+    }
+
+    .menu {
+        text-align:center;
+        width:100%;
+        display:none;
+        background:#000;
+        z-index:9999;
+        position:absolute;
+        
+    }
+
+    .menu a {
+        display:block;
+        border-bottom: thin solid #EAB543;
+        margin:0;
+        
+    } 
+
+    #toggle:checked + .menu {
+        display:block;
+    
+    }
+
+    .topSlider span {
+        padding: 2em auto;
+    }
+}
+
+
+/* ================================media queries até 600px ==============================================*/
+@media only screen and (max-width:700px) {
+    label{
+        display:block;
+        cursor:pointer;
+    }
+
+    .menu {
+        text-align:center;
+        width:100%;
+        display:none;
+        background:#000;
+        z-index:9999;
+        position:absolute;
+    }
+
+    .menu a {
+        display:block;
+        border-bottom: thin solid #EAB543;
+        margin:0;
+        
+    }
+
+    #toggle:checked + .menu {
+        display:block;
+    
+    }
+
+    /* características na página index */
+
+    /* topslider */
+
+    .topSlider span {
+        width:90%;
+    }
+
+    .topSlider span h1 {
+        font-size: 2em;
+        line-height: 1.5em;
+        margin-top:1em;
+        
+    }
+
+    .topSlider span h3 {
+        font-size:1.3em;
+        line-height: 1.7em;
+    
+    }
+
+    /* características do big-banner para todas as páginas */
+    
+    .banner-titulos{
+        width:90%;
+    }
+
+    .banner-titulos h1 {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    .banner-titulos h3 {
+        font-size:1.3em;
+        line-height: 1.7em;
+    }
+
+
+    /* características da página história */
+
+    .historia-tudo-p, .historia-tudo-img, .historia-mais-img, .historia-mais-p, .historia-tudo-p-longo, .imagem-longa {
+        width:100%;
+    }
+
+    .historia-mais-img{
+        margin-bottom:2em;
+    }
+
+    /* características da página Gastronomia */
+    .galeria figure {
+        width:100%;
+    }
+
+  #sobre1, #sobre4 {
+      width:100%;
+  }
+
+  article.sobre-2, article.sobre-3 {
+      width:100%;
+      margin-top:1em;
+      margin-bottom:0
+  }
+  
+  .vinho-item {
+      width:100%;
+  }
+
+  /* características da página Reservas */
+
+    #form form input[type=password],
+    #form form input[type=text] {
+        width:100%;
+    }
+
+    #calendar {
+        width:100%;
+    }
+
+    /* características da página Eventos */
+
+    article.art-2, article.art-1 {
+        width:100%;
+        
+    }
+
+    .modal-conteudo form input[type=text], 
+    .modal-conteudo form input[type=tel],
+    .modal-conteudo form input[type=email],
+    .modal-conteudo form input[type=date],
+    .modal-conteudo form select,
+    .modal-conteudo form textarea {
+        width:100%;
+    }
+
+    /* características da página Contato */
+    .contato-formu article {
+        width:100%;
+    }
+
+    .contato-formu article h4 {
+        margin-top:1.5em;
+    }
+
+    /* características da página Carreiras */
+
+    .carreira {
+        width:80%;
+    
+    }
+
+    .form-campo2 input[type=text], .form-campo2 input[type=email], .form-campo2 input[type=tel] {
+        width:100%;
+    }
+
+    .form-campo3 .inputfile-label, .form-campo3 #button-btn {
+        font-size:0.75em;
+    }
+
+
+
+
+}
+
+

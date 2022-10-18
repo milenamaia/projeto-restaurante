@@ -1,516 +1,126 @@
-@charset "utf-8";
 
-/* SOBREMESAS */
-.sobremesa1{
+/* entradas */
+
+.entradas h2 {
+    margin: 1em auto;
+    text-align: center;
+    font-size: 45px;
+  }
+  
+.entradas h3 {
+  margin: 1em auto;
+  text-align: center;
+}
+
+/* pratos principais */
+
+.pratos-principais {
+    width:100%;
+    background-color: #f7f1e3;
+    text-align:Center;
+    padding:2em 0;
+}
+
+.pratos-principais h3 {
+    margin-bottom:2em;
+    margin-top:2em;
+}
+
+.galeria {
     display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.sobremesa1 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
+.galeria figure {
+    width:30%;
+    margin:1em;
+    height:auto;
 }
 
-.sobremesa1 h2{
-    font-size: 20px;
-    margin-top: 10px;
+.galeria figure img {
+    width:100%;
+    display:block;
+    transform: scale(1.0);
+      transition: transform 0.7s, opacity 0.7s;
+      opacity:0.8;
+}
+
+.galeria figure img:hover {
+    opacity: 1.0;
+ 	transform: scale(1.01);
+}
+
+.galeria figure figcaption {
+    margin:0 auto 1em auto;
+    background:#fff;
+    padding:1em;
+}
+
+
+/* sobremesas section  */
+
+.sobremesas-geral {
+    width:70%;
     text-align: center;
-    font-family: 'Rasa, serif';
+    margin:2em auto;
 }
 
-.sobremesa1 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
+.sobremesas-geral h3 {
+    margin:1em auto;
 }
 
-.sobremesa2{
+.sobremesas {
     display:flex;
-	justify-content:space-around;
-    padding: 65px 0px 0px 50px
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.sobremesa2 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
+article {
+    padding:1.5em;
+    margin:0;
 }
 
-.sobremesa2 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
+article p {
+    padding-top:0;
 }
 
-.sobremesa2 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
+ article.sobre-3 {
+    width:40%;
+    margin-right:2%;
+
 }
 
-.sbs:hover {
-   transform: scale(1.1);
+article.sobre-2 {
+    width:40%;
+    margin-left:2%;
+    
 }
 
-.sobremesa3{
+#sobre1, #sobre4 {
+    background:#f7f1e3;
+    width:44%;
+}
+
+/* seção de carta de vinhos */
+.carta-vinhos {
+    text-align:center;
+    margin:3em auto 0 auto;
+    background: #f7f1e3;
+}
+
+.carta-vinhos h3 {
+    margin-bottom:1em;
+    padding-top:1em;
+    line-height:2em;
+}
+
+.vinhos-lista{
     display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
-.sobremesa3 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
+.vinho-item {
+    width:27%;
 }
-
-.sobremesa3 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.sobremesa3 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-/* ---------- */
-
-/* LANCHES */
-
-.lanches1{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.lanches1 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.lanches1 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.lanches1 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.lanches2{
-    display:flex;
-	justify-content:space-around;
-    padding: 65px 0px 0px 50px
-}
-
-.lanches2 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.lanches2 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.lanches2 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.lacs:hover {
-   transform: scale(1.1);
-}
-
-.lanches3{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.lanches3 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.lanches3 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.lanches3 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-
-/* ---------- */
-
-/* VEGETARIANOS */
-.vegetariano1{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.vegetariano1 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.vegetariano1 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.vegetariano1 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.vegetariano2{
-    display:flex;
-	justify-content:space-around;
-    padding: 65px 0px 0px 50px
-}
-
-.vegetariano2 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.vegetariano2 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.vegetariano2 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.vta:hover {
-   transform: scale(1.1);
-}
-
-.vegetariano3{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.vegetariano3 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.vegetariano3 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.vegetariano3 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-
-/* ---------- */
-
-/* FITNESS */
-.fitness1{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.fitness1 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.fitness1 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.fitness1 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.fitness2{
-    display:flex;
-	justify-content:space-around;
-    padding: 65px 0px 0px 50px
-}
-
-.fitness2 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.fitness2 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.fitness2 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.fits:hover {
-   transform: scale(1.1);
-}
-
-.fitness3{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.fitness3 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.fitness3 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.fitness3 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-/* ---------- */
-
-/* VEGANOS */
-.vegano1{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.vegano1 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.vegano1 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.vegano1 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.vegano2{
-    display:flex;
-	justify-content:space-around;
-    padding: 65px 0px 0px 50px
-}
-
-.vegano2 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.vegano2 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.vegano2 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.vga:hover {
-   transform: scale(1.1);
-}
-
-.vegano3{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.vegano3 img{
-    width: 230px;
-    height: 190px;
-    border-radius: 20px;
-}
-
-.vegano3 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.vegano3 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-
-/* ---------- */
-
-/* BEBIDAS */
-.bebidas1{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.bebidas1 img{
-    width: 190px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-.bebidas1 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.bebidas1 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.bebidas2{
-    display:flex;
-	justify-content:space-around;
-    padding: 65px 0px 0px 50px
-}
-
-.bebidas2 img{
-    width: 190px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-.bebidas2 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.bebidas2 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-.bbd:hover {
-   transform: scale(1.1);
-}
-
-.bebidas3{
-    display:flex;
-	justify-content:space-around;
-    padding: 130px 0px 0px 50px
-}
-
-.bebidas3 img{
-    width: 190px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-.bebidas3 h2{
-    font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Rasa, serif';
-}
-
-.bebidas3 h4{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 5px;
-    color: #000000;
-}
-
-
-/* ---------- */
