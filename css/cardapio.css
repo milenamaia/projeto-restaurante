@@ -3,8 +3,9 @@
     margin:0 auto;
     color:rgb(3, 3, 3);
     text-align:center;
-    padding: 1em 0;
+    padding: 70px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 /* entradas */
@@ -48,19 +49,9 @@
 .galeria figure img {
     width:100%;
     display:block;
-    transform: scale(1.0);
-      transition: transform 0.7s, opacity 0.7s;
-      opacity:0.8;
-}
-
-.galeria figure img:hover {
-    opacity: 1.0;
- 	transform: scale(1.01);
 }
 
 .galeria figure figcaption {
-    margin:0 auto 1em auto;
-    background:#fff;
     padding:1em;
 }
 
