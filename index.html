@@ -7,53 +7,74 @@
         <meta name="description" charset="Gulemar ">
         <meta name="author" charset="Restaurante">
 		
-		<link href="css/estilo.css" rel="stylesheet" type="text/css">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/cardapio.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/historia.css">
-        <link rel="stylesheet" href="css/eventos">
+        <link rel="stylesheet" href="css/gastronomia.css">
+        <link rel="stylesheet" href="css/eventos.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="stylesheet" href="css/reset.css">
 
-	
-		 <!-- CSS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-		
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-		
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
-    	
-         <!-- Header -->
-      <header id="header" class="skel-layers-fixed">
-        <div class="logo">
-            <img src="img/logo.png" alt="logo">
-       </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#banner">Home</a></li>
-                    <li><a href="#historia">Historia</a></li>
-                    <li><a href="#cardapio">Cardápio</a></li>
-                    <li><a href="#eventos">Eventos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-       </header>
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Roboto:400,700" rel="stylesheet">
+        
+<!--ion icons-->
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">  
+
+<!-- Fontawesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <header class="nav">
+            <div class="logo">
+                 <a href="index.html"><img src="img/logo.png" alt="logo do restaurante Gulemar" title="logo do gulemar"></a>
+            </div>
+             <label for="toggle">&#9776;</label>
+             <input type="checkbox" id="toggle">
+
+             <nav class="menu">
+                 <a href="#home.html">Home</a>
+                 <a href="#historia.html">História</a>
+                 <a href="#cardapio.html">Cardápio</a>
+                 <a href="#eventos.html">Eventos</a>
+                 <a href="#contato.html" id="sem-margem">Contato</a>
+             </nav>
+     </header>
+ <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Roboto:400,700" rel="stylesheet">
+        
+        <!--ion icons-->
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">  
+        
+        <!-- Fontawesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- responsive infinite slider -->
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script>
+            $(function(){
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                slideWidth: 600
+            });
+            });
+        </script>
 
      <body>
+        
         <section class="banner-principal">
         </section>
-        <div class="titulos">
-            <h1>História</h1>
-         </div>
-
-           <section class="historia container">
+        <div class="container">
+            <div class="banner">
+               <h1>História</h1>
+            </div>
+         </div> 
+         <!-- -----------------------início da sessão história------------------- -->
+         <section class="historia container">
             <div class="historia-tudo wow slideInLeft" data-wow-duration="2s">
                 <div class="historia-tudo-p">
                     <p>Lorem ipsum dolor amet synth raclette austin aesthetic forage pabst. Man bun venmo la croix  batch wolf. Yr pop-up woke, fashion axe cornhole g cred.</p>
@@ -79,40 +100,41 @@
                 <div class="historia-tudo-p-longo wow slideInRight" data-wow-duration="4s">
                         <p>Lorem ipsum dolor amet synth raclette austin aesthetic forage pabst. Man bun venmo la croix  fashion axe cornhole gochujang adaptogen gluten-free drinking vinegar wayfarers cred...</p>
                 </div>
+
+                <div class="imagem-longa wow slideInLeft" data-wow-duration="6s">
+                    <img src="img/historia3.jpg" alt="um registro de como nossa mesa é posta de maneira impecável, simples e extremamente charmosa" title="Detalhes de como é posta nossa mesa">
+                    <h4>Tradição em sabor e atendimento!</h4>
+                    <a href="reservas.html" class="botao">Reservar</a>
+                </div>
             </div>
+        </section><!----------fim da sessão história---------->
 
-        </section>
+         <!----------início do big-banner---------->
+         <section class="banner-principal">
+            <div class="container">
+               <div class="banner-titulos wow slideInDown" data-wow-duration="2s">
+                <h1>Gastronomia</h1>
+                <h3>Ingredientes e bebidas selecionados para agradar seu paladar.</h3>
+               </div>
+            </div> 
+        </section><!----------fim do big-banner---------->
+        
 
-                <section class="fundo"></section>   
 
-                 <!-- responsive infinite slider -->
-        <link rel="stylesheet" href="css/jquery.bxslider.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js/jquery.bxslider.js"></script>
-        <script>
-            $(function(){
-            $('.bxslider').bxSlider({
-                mode: 'fade',
-                captions: true,
-                slideWidth: 600
-            });
-            });
+        <!-- -----------------------início da sessão eventos------------------- -->
+        <section class="entradas container">
+            <h3>Entradas</h3>
+            <div class="bxslider">
+                    <div><img src="img/entradas-1.jpg" title="Canapés das arábias sautée" alt="uma entrada denominada canapés das arábias sautée"></div>
+                    <div><img src="img/entrada-2.jpg" title="Berinjelas gratinadas europeias" alt="uma entrada feita de berinjelas europeias gratinadas"></div>
+                    <div><img src="img/entrada-3.jpg" title="Torradas tailandesas ao molho" alt="torradas tailandesas ao molho de alho"></div>
+                    <div><img src="img/entrada-4.jpg" title="Trouxinhas crocantes de blanket de peru" alt="entrada de trouxinhas feitas de massa crocante com recheio de blanket de peru"></div>
+                    <div><img src="img/entrada-5.jpg" title="Beterraba ao molho dorê" alt="beterrabas grelhadas ao molho dorê"></div>
+            </div>
+        </section><!----------fim da sessão entradas---------->
 
-        </script> 
-
-                <section class="entradas container" id="cardapio">
-                    <h2>Cardápio</h2>
-                    <h3>Entradas</h3>
-                    <div class="bxslider">
-                            <div><img src="img/entradas-1.jpg" title="Canapés das arábias sautée" alt="uma entrada denominada canapés das arábias sautée"></div>
-                            <div><img src="img/entrada-2.jpg" title="Berinjelas gratinadas europeias" alt="uma entrada feita de berinjelas europeias gratinadas"></div>
-                            <div><img src="img/entrada-3.jpg" title="Torradas tailandesas ao molho" alt="torradas tailandesas ao molho de alho"></div>
-                            <div><img src="img/entrada-4.jpg" title="Trouxinhas crocantes de blanket de peru" alt="entrada de trouxinhas feitas de massa crocante com recheio de blanket de peru"></div>
-                            <div><img src="img/entrada-5.jpg" title="Beterraba ao molho dorê" alt="beterrabas grelhadas ao molho dorê"></div>
-                    </div>
-                </section>
-                 <!-- início da sessão de pratos principais -->
-        <section class="pratos-principais wow slideInLeft" data-wow-duration="4s">
+        <!-- início da sessão de pratos principais -->
+        <section class="pratos-principais wow slideInLeft" data-wow-duration="2s">
             <h3>Pratos Principais</h3>
             <div class="container">
                 <div class="galeria">
@@ -203,101 +225,98 @@
 
         </section><!--fim da seção de carta de vinhos-->
 
-                 <section class="fundo1"></section> 
-<!-- -----------------------início da sessão eventos------------------- -->
-<section class="eventos">
-    <div class="container">
-      <div class="eventos-um wow slideInLeft" data-wow-duration="2s">
-          <article class="art-1">
-                  <img src="img/eventos-sociais.jpg" alt="uma mulher servindo a mesa e checando últimos preparativos de um evento social" title="eventos sociais">
-                  <h3>Eventos sociais</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
-          </article>
-          <article class="art-2">
-                  <img src="img/eventos-corporativos.jpg" alt="três colegas de trabalho fazendo uma reunião em torno de uma mesa de um evento corporativo" title="eventos corporativos">
-                  <h3>Eventos corporativos</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
-          </article>
-      </div>
-
-      <div class="eventos-dois wow slideInRight" data-wow-duration="4s">
-        <article>
-              <img src="img/eventos-casamento.jpg" alt="cerimonial de casamento em que duas pessoas estão juntas e de mãos dadas enquanto um fotógrafo registra o momento" title="cerimonial de casamento">
-              <h3>Casamentos</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
-              <div id="classe">
-                      <h3>Interessou-se por nossos serviços? Entre em contato!</h3>
-                      <button id="modalBtn" class="botao">Solicitar orçamento</button>
+         <!-- -----------------------início da sessão eventos------------------- -->
+         <section class="eventos">
+            <div class="container">
+              <div class="eventos-um wow slideInLeft" data-wow-duration="2s">
+                  <article class="art-1">
+                          <img src="img/eventos-sociais.jpg" alt="uma mulher servindo a mesa e checando últimos preparativos de um evento social" title="eventos sociais">
+                          <h3>Eventos sociais</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+                  </article>
+                  <article class="art-2">
+                          <img src="img/eventos-corporativos.jpg" alt="três colegas de trabalho fazendo uma reunião em torno de uma mesa de um evento corporativo" title="eventos corporativos">
+                          <h3>Eventos corporativos</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+                  </article>
               </div>
-
-              <!-- O modal -->
-              <div id="meuModal" class="modal">
-                  <div class="modal-conteudo">
-                      <span class="fecharBtn">&times;</span>
-
-                      <form action="orcamento_enviar.php" method="post">
-                          <fieldset>
-                              <h3>Orçamento</h3>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur delectus nulla distinctio, accusamus lorem ipsum dolor amet sit cacildis eits mussum hipster ommodi maxime, sit consectetur quos eveniet veritatis repellat.</p>
-
-                              <div class="form-1">
-                                  <input type="text" placeholder="Nome Completo" id="nome" name="nome" required>
-                                  <input type="text" placeholder="Empresa" name="empresa" id="empresa">
-                              </div>
-
-                              <div class="form-1">
-                                      <input type="tel" placeholder="Telefone (celular)" name="tel" id="tel">
-                                      <input type="email" placeholder="Seu e-mail aqui" id="email" name="email" required>
-                              </div>
-
-                              <div class="form-1">
-                                      <input type="date" placeholder="Data" name="data" id="data" required>
-                                      <select id="selecao" name="selecao">
-                                          <option value="assunto">Período</option>
-                                          <option value="manha">Manhã</option>
-                                          <option value="tarde">Tarde</option>
-                                          <option value="noite">Noite</option>
-                                          <option value="outros">Outros</option>
-                                      </select>
-                              </div>
-
-                              <div>
-                                      <select class="convidados" name="convidados">
-                                              <option value="convidados">Quantidade de Convidados</option>
-                                              <option value="quantia1">10 ou +</option>
-                                              <option value="quantia2">20 ou +</option>
-                                              <option value="quantia3">30 ou +</option>
-                                              <option value="quantia4">40 ou +</option>
-                                              <option value="quantia5">50 ou +</option>
-                                            </select>
-                              </div>
-                              <div><textarea cols="30" rows="10" id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea></div>
-                              <div><input type="submit" value="Enviar"></div>
-
-
-
-
-                          </fieldset>
-                      </form>
-
-                  </div>
-              </div> <!------------------------ fim do modal-------------------->
-        </article>
-      </div>
-
-    </div>
-  </section> <!-- fim da section eventos-->
   
-			  
+              <div class="eventos-dois wow slideInRight" data-wow-duration="4s">
+                <article>
+                      <img src="img/eventos-casamento.jpg" alt="cerimonial de casamento em que duas pessoas estão juntas e de mãos dadas enquanto um fotógrafo registra o momento" title="cerimonial de casamento">
+                      <h3>Casamentos</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem culpa, a est voluptatem quasi officiis rerum fuga, odit, consequuntur ullam vitae expedita omnis! Minima eligendi magni praesentium totam error.</p>
+                      <div id="classe">
+                              <h3>Interessou-se por nossos serviços? Entre em contato!</h3>
+                              <button id="modalBtn" class="botao">Solicitar orçamento</button>
+                      </div>
+  
+                      <!-- O modal -->
+                      <div id="meuModal" class="modal">
+                          <div class="modal-conteudo">
+                              <span class="fecharBtn">&times;</span>
+  
+                              <form action="orcamento_enviar.php" method="post">
+                                  <fieldset>
+                                      <h3>Orçamento</h3>
+                                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur delectus nulla distinctio, accusamus lorem ipsum dolor amet sit cacildis eits mussum hipster ommodi maxime, sit consectetur quos eveniet veritatis repellat.</p>
+  
+                                      <div class="form-1">
+                                          <input type="text" placeholder="Nome Completo" id="nome" name="nome" required>
+                                          <input type="text" placeholder="Empresa" name="empresa" id="empresa">
+                                      </div>
+  
+                                      <div class="form-1">
+                                              <input type="tel" placeholder="Telefone (celular)" name="tel" id="tel">
+                                              <input type="email" placeholder="Seu e-mail aqui" id="email" name="email" required>
+                                      </div>
+  
+                                      <div class="form-1">
+                                              <input type="date" placeholder="Data" name="data" id="data" required>
+                                              <select id="selecao" name="selecao">
+                                                  <option value="assunto">Período</option>
+                                                  <option value="manha">Manhã</option>
+                                                  <option value="tarde">Tarde</option>
+                                                  <option value="noite">Noite</option>
+                                                  <option value="outros">Outros</option>
+                                              </select>
+                                      </div>
+  
+                                      <div>
+                                              <select class="convidados" name="convidados">
+                                                      <option value="convidados">Quantidade de Convidados</option>
+                                                      <option value="quantia1">10 ou +</option>
+                                                      <option value="quantia2">20 ou +</option>
+                                                      <option value="quantia3">30 ou +</option>
+                                                      <option value="quantia4">40 ou +</option>
+                                                      <option value="quantia5">50 ou +</option>
+                                                    </select>
+                                      </div>
+                                      <div><textarea cols="30" rows="10" id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea></div>
+                                      <div><input type="submit" value="Enviar"></div>
+  
+  
+  
+  
+                                  </fieldset>
+                              </form>
+  
+                          </div>
+                      </div> <!------------------------ fim do modal-------------------->
+                </article>
+              </div>
+  
+            </div>
+          </section>
         <!-- --------------início do footer--------------------- -->
-        <footer class="rodape">
+        <footer class="rodape" id="contato">
             <div class="rodape-items">
                <div class="rodape-logo">
                   <a href="index.html"><img src="img/logo.png" alt="logo da Steak House Gurmet"></a> 
                </div>
                <div class="rodape-endereco">
                    <p>Rua da Glória, 666 - Aclimação, SP
-                    <br>Tel.: (11) 9874-4561 - contato@steakhousegourmet.com.br</p>
+                    <br>Tel.: (11) 9874-0000 - contato@gulemar.com.br</p>
                </div>
                <div class="rodape-redes-sociais">
                   <ul>

@@ -1,4 +1,4 @@
-@media only screen and (min-width:300px) and (max-width:700px) {
+@media only screen and (min-width:300px) and (max-width:800px) {
     /* menu responsivo */
     label{
         display:block;
@@ -9,7 +9,7 @@
         text-align:center;
         width:100%;
         display:none;
-        background:#000;
+        background:rgb(241 217 164);;
         z-index:9999;
         position:absolute;
         

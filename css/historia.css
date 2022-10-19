@@ -1,13 +1,24 @@
 
+/* banner principal */
 
-/* HISTORIA */
-
-.titulos {
+.banner-principal {
+    background: url("../img/banner.jpg") no-repeat center center;
+    background-size:cover;
+    height:auto;
     margin:0 auto;
     color:rgb(0, 0, 0);
     text-align:center;
-    padding:2em 0;
+    padding:7em 0;
 }
+
+.banner-titulos {
+    margin:0 auto;
+    color:rgb(3, 3, 3);
+    text-align:center;
+    padding:7em 0;
+}
+
+/* HISTORIA */
 
 .historia {
     margin:2em auto;
@@ -38,7 +49,7 @@
     width:80%;
     padding:1.25em;
     margin:2em auto;
-    background:#f7f1e3;
+    background:rgb(241 217 164);
     box-sizing: border-box;
 }
 
