@@ -6,17 +6,18 @@
     background-size:cover;
     height:auto;
     margin:0 auto;
-    color:rgb(0, 0, 0);
     text-align:center;
     padding:17em 0;
 }
 
-.banner-titulos {
+.titulo-historia{
     margin:0 auto;
     color:rgb(3, 3, 3);
     text-align:center;
-    padding:7em 0;
+    padding: 1em 0;
+    font-size: 35px;
 }
+
 
 /* HISTORIA */
 

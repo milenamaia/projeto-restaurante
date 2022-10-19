@@ -1,4 +1,12 @@
 
+.titulo{
+    margin:0 auto;
+    color:rgb(3, 3, 3);
+    text-align:center;
+    padding: 1em 0;
+    font-size: 40px;
+}
+
 /* entradas */
 
 .entradas h2 {
@@ -16,9 +24,8 @@
 
 .pratos-principais {
     width:100%;
-    background-color: #f7f1e3;
     text-align:Center;
-    padding:2em 0;
+    font-size: 20px;
 }
 
 .pratos-principais h3 {
