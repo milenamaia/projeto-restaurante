@@ -1,13 +1,6 @@
 
 /* banner principal */
 
-.banner-principal {
-    background: url("../img/bg-gastronomia.jpg") no-repeat center center;
-    background-size:cover;
-    height:auto;
-    background-attachment: fixed;
-}
-
 .banner-titulos {
     margin:0 auto;
     color:#fff;
